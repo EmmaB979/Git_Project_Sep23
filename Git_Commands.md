@@ -70,4 +70,8 @@ Sending file to staging area
 
 9. followed by `git push` to upload from local repository to remote repository, github
    
-   This pushes whole git to github, excluding files is possible by adding arguments, which is not looked at here. 
+   This pushes whole git to github, excluding files is possible by adding arguments, which is not looked at here.
+
+10. `git pull` to pull from remote repository to local repository (Working with collaborators or when local is not in sync with the remote, or the remote is edited    but local isn't)
+    
+11. 
