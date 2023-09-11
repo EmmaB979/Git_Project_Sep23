@@ -48,6 +48,19 @@ ALWAYS DO BEFORE ADDING AND/OR COMMITTING
 
 `git log`
 
-See latest git activities
+    `-n <n°>`
+
+    `--abbrev-commit`
+
+    `--help`
+
+See latest git activities (last n° of commits, abbreviated commit numbers)
+
+`git diff`/ `git show`
+
+Check for differences in commit versions. if you only input one commit number, you check with the most recent version.
+
+    `git show -n <file name>` 
+    shows n latest version of file
 
 `git ignore`
