@@ -34,6 +34,8 @@ Committing an update, including a message on why this commit is necessary/useful
 
 3. Local repository: the repository (hidden .git folder) where you keep your snapshots, also stored locally. 
 
+To check in what conceptual areas my files are, check by `git status`
+
 #### Developing area
 
 In the computer itself, the folder where the git was created.
@@ -42,7 +44,15 @@ In the computer itself, the folder where the git was created.
 
 Computer itself. Personal space before committing and starting the gitroutine. Creating a snapshot.
 
-Do by `$ git add filename`
+Do by `$ git add filename` (Each file separately)
+
+**Important to stage before saving**: it gives the possibility to give the added files (multiple), the same message so that we can know files are related and helps organize your ideas, especially for parallel changes. Gives more organized message and especially in case of collaborations. 
+
+    If combining to much: insufficient information or confusing
+
+    If not combining enough: repetitive history
+
+    staging related files: creates logical history
 
 #### Local repository = .git
 
@@ -52,8 +62,8 @@ See folder using ls -la
 
 Do by` $ git commit`
 
+message for commands: Commands updated with staging and committing multiple files together
 
+message for tutorial: Tutorial with description of combining staged files for committing them together
 
-
-
-
+message if combined: Updated tutorial and commands on how to stage and commit multiple files together and why 
