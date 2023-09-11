@@ -63,4 +63,9 @@ Check for differences in commit versions. if you only input one commit number, y
     `git show -n <file name>` 
     shows n latest version of file
 
-`git ignore`
+`.gitignore` is a file containing the names of the files that should not be read in into Git. When sharing on GitHub, people can read the gitignore file, but cannot access the files described within. 
+
+`git remote add <project foldername> <ssh>`
+project foldername or just the name you want to give to your bridge to github. This is "staging" to github
+
+followed by `git push` to upload to github
