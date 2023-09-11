@@ -67,3 +67,7 @@ message for commands: Commands updated with staging and committing multiple file
 message for tutorial: Tutorial with description of combining staged files for committing them together
 
 message if combined: Updated tutorial and commands on how to stage and commit multiple files together and why 
+
+### Remote repository: GitHub
+
+Online repository linked to local repository. It functions as a back-up of your local repository. This is most probably a cloud-like kind of repository, in this case represented by GitHub. 
