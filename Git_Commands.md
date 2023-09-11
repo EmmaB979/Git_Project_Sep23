@@ -15,6 +15,8 @@
    Meaningful message: Why, how, limitations, effects
    
    Why writing the message: for future self and collaborators, explain what you did. 
+   
+   Without the -m, Git will ask/force you to write a message, can have outline with title  (followed by empty line) and multiple lines with description (not after a "#")
 
 4. `git status`
    
