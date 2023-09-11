@@ -19,5 +19,7 @@
 4. `git status`
    
    Gives uncommitted changes, staged and unstaged changes and untracked files (completely new files) from all conceptual areas as a report. 
+   
+   ALWAYS DO BEFORE ADDING AND/OR COMMITTING
 
 5. `git ignore`
