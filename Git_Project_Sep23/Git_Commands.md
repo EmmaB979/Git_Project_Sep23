@@ -93,6 +93,7 @@ Sending file to staging area
 `git branch`will also show your branches and indicate in which branch you are, which you can also see by `git status` or in your command line line 
 
 If you want to push you have to be in the same branch that you have done modification then you can push, don't push from the  Master Branch if your modification is from other branches. The same goes for the git pull!! However, if your collaborator added a branch, you can see and go to the new branch by `git branch --list`or `git checkout` and press tab twice to get a list of existing (but maybe not visible) branches. 
+<<<<<<< HEAD
 
 Checking for new branches, you need to pull: `git fetch`
 
@@ -104,4 +105,4 @@ This can happen by changing a previous commit. as long as this commit, that is n
 
 ## Conflict resolving
 
-When pushing something while someone else has pulled, edited and pushed again, and you haven't pulled this update, you will get a conflict. You can edit the file after git pull, solve the conflict in the file, save and then continue with the git status-add-commit and push. OR you can go to ungit, in which the conflict is visualized and you can continue the push after you used the ungit tool for solving the conflict. 
+ When pushing something while someone else has pulled, edited and pushed again, and you haven't pulled this update, you will get a conflict. You can edit the file after git pull, solve the conflict in the file, save and then continue with the git status-add-commit and push. OR you can go to ungit, in which the conflict is visualized and you can continue the push after you used the ungit tool for solving the conflict.
