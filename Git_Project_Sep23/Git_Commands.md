@@ -89,3 +89,5 @@ Sending file to staging area
    <mark> files are visible or invisible depending on the branch you are in!!!</mark>
 
 `git branch --list` to get the list of branches you have in this git folder
+
+If you want to push you have to be in the same branch that you have done modification then you can push, don't push from the  Master Branch if your modification is from other branches 
