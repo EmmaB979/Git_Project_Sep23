@@ -101,3 +101,7 @@ Checking for new branches, you need to pull: `git fetch`
 you can create a branch by returning to a previous commit, called a detached head/branch by `git branch <branch name> <commit ID>`
 
 This can happen by changing a previous commit. as long as this commit, that is not part anymore of the main branch, is not attached to a branch, it is a detached head. (Start from `git checkout <commit ID>`)
+
+## Conflict resolving
+
+When pushing something while someone else has pulled, edited and pushed again, and you haven't pulled this update, you will get a conflict. You can edit the file after git pull, solve the conflict in the file, save and then continue with the git status-add-commit and push. OR you can go to ungit, in which the conflict is visualized and you can continue the push after you used the ungit tool for solving the conflict. 
