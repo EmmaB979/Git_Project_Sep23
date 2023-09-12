@@ -71,3 +71,7 @@ message if combined: Updated tutorial and commands on how to stage and commit mu
 ### Remote repository: GitHub
 
 Online repository linked to local repository. It functions as a back-up of your local repository. This is most probably a cloud-like kind of repository, in this case represented by GitHub. 
+
+
+
+Testing out conflict with no inspiration...
