@@ -73,5 +73,5 @@ Sending file to staging area
    This pushes whole git to github, excluding files is possible by adding arguments, which is not looked at here.
 
 10. `git pull` to pull from remote repository to local repository (Working with collaborators or when local is not in sync with the remote, or the remote is edited    but local isn't)
-    
-11. 
+
+11. `git clone`clones all info from repository, not like pull, only pulling the recent files and no background info. 
