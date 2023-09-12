@@ -80,8 +80,12 @@ Sending file to staging area
     `git clone`clones all info from repository, not like pull, only pulling the recent files and no background 
     info. 
 
-Branching
+## Branching
 
-git branch <name> to create named branch
+`git branch <name>` to create named branch
 
-git checkout <branch name> to move to another branch or commit
+`git checkout <branch name>` to move to another branch or commit
+
+   <mark> files are visible or invisible depending on the branch you are in!!!</mark>
+
+`git branch --list` to get the list of branches you have in this git folder
