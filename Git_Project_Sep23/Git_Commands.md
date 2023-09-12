@@ -96,4 +96,8 @@ If you want to push you have to be in the same branch that you have done modific
 
 Checking for new branches, you need to pull: `git fetch`
 
-**Testing out time travelling** or am I?
+**Testing out time travelling** or am I? 
+
+you can create a branch by returning to a previous commit, called a detached head/branch by `git branch <branch name> <commit ID>`
+
+This can happen by changing a previous commit. as long as this commit, that is not part anymore of the main branch, is not attached to a branch, it is a detached head. (Start from `git checkout <commit ID>`)
