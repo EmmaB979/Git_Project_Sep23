@@ -74,6 +74,8 @@ Sending file to staging area
 
 10. `git pull` to pull from remote repository to local repository (Working with collaborators or when local is not in sync with the remote, or the remote is edited    but local isn't)
     
-    ## Collaboration training
+## Collaboration training
 
 11. In the github --> collaborator --> add collaboratero --> enter email address then you have to accept --> make new folder in your local PC/laptop --.> clone collaborator project by `git clone <SSH key>`
+    `git clone`clones all info from repository, not like pull, only pulling the recent files and no background 
+info. 
