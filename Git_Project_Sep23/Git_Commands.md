@@ -73,9 +73,27 @@ Sending file to staging area
    This pushes whole git to github, excluding files is possible by adding arguments, which is not looked at here.
 
 10. `git pull` to pull from remote repository to local repository (Working with collaborators or when local is not in sync with the remote, or the remote is edited    but local isn't)
-    
+
 ## Collaboration training
 
 11. In the github --> collaborator --> add collaboratero --> enter email address then you have to accept --> make new folder in your local PC/laptop --.> clone collaborator project by `git clone <SSH key>`
     `git clone`clones all info from repository, not like pull, only pulling the recent files and no background 
-info. 
+    info. 
+
+## Branching
+
+`git branch <name>` to create named branch
+
+`git checkout <branch name>` to move to another branch or commit
+
+   <mark> files are visible or invisible depending on the branch you are in!!!</mark>
+
+`git branch --list` to get the list of branches you have in this git folder
+
+`git branch`will also show your branches and indicate in which branch you are, which you can also see by `git status` or in your command line line 
+
+If you want to push you have to be in the same branch that you have done modification then you can push, don't push from the  Master Branch if your modification is from other branches. The same goes for the git pull!! However, if your collaborator added a branch, you can see and go to the new branch by `git branch --list`or `git checkout` and press tab twice to get a list of existing (but maybe not visible) branches. 
+
+Checking for new branches, you need to pull: `git fetch`
+
+**Testing out time travelling** 
