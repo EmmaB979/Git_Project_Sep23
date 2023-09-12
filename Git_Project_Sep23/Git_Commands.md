@@ -90,4 +90,6 @@ Sending file to staging area
 
 `git branch --list` to get the list of branches you have in this git folder
 
-If you want to push you have to be in the same branch that you have done modification then you can push, don't push from the  Master Branch if your modification is from other branches 
+`git branch`will also show your branches and indicate in which branch you are, which you can also see by `git status` or in your command line line 
+
+If you want to push you have to be in the same branch that you have done modification then you can push, don't push from the  Master Branch if your modification is from other branches. The same goes for the git pull!! However, if your collaborator added a branch, you can see and go to the new branch by `git branch --list`or `git checkout` and press tab twice to get a list of existing (but maybe not visible) branches. 
