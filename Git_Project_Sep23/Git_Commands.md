@@ -96,4 +96,4 @@ If you want to push you have to be in the same branch that you have done modific
 
 Checking for new branches, you need to pull: `git fetch`
 
-**Testing out time travelling** 
+**Testing out time travelling** or am I?
