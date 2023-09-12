@@ -110,3 +110,17 @@ This can happen by changing a previous commit. as long as this commit, that is n
 ## Merging
 
 branches can be merged by `git merge`
+
+
+
+## Forking
+
+Making an "independent" copy of a GitHub repository in your own repository, making you the owner of that copy, not collaborator. Git clone copies locally, while in forking, you copy online. Making it like a separate git project. if you want to work on it, you need to git clone it first. 
+
+Work on the files as you want, add-commit and push to your forked version on GitHub.
+
+You can share your adaptations with the original maker by the "contribute" button, asking them to pull the request into their GitHub if they want. You can add a text describing your ideas and work and why to convince them. 
+
+## Tagging
+
+Tag a commit so that you can highlight that moment in time to easily go back to it (Good version, important version...). And if you do not want to make a branch of it. Allows you to experiment risk free. add tag to last commit by `git tag <tag name>`, this will not be uploaded to github, but if you do, you can do it, and keep the tag by `git push --tags`. You can easily then go to the tag by `git checkout <tag name>`.
