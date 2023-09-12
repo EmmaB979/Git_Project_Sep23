@@ -76,4 +76,4 @@ Sending file to staging area
     
     ## Collaboration training
 
-11.  In the github --> collaborator --> add collaboratero --> enter email address then you have to accept --> make new folder in your local PC/laptop --.> clone collaborator project by `git clone <SSH key>`
+11. In the github --> collaborator --> add collaboratero --> enter email address then you have to accept --> make new folder in your local PC/laptop --.> clone collaborator project by `git clone <SSH key>`
